@@ -8,7 +8,7 @@ A low-level **disk forensics and file carving** tool written in Python that reco
 
 ## Sample Output
 
-![Recovered JPEG files shown in Windows Explorer](recovered_sample.png)
+![Recovered JPEG Samples](RecoveredDataJPEG.png)
 
 *Screenshot showing recovered JPEG files — handwritten notes, wallpapers, and application icons successfully carved from raw disk data.*
 
