@@ -165,12 +165,12 @@ This project is a hands-on introduction to several key **digital forensics** and
 
 ## Possible Improvements
 
-Add support for PNG, PDF, DOCX signatures
-Multi-threaded scanning for speed
-Linux/macOS support (`/dev/sda` style paths)
-GUI interface using Tkinter or PyQt
-Skip already-recovered sectors (journal/checkpoint file)
-Validate recovered files using PIL/Pillow before saving
+- [ ] Add support for PNG, PDF, DOCX signatures
+- [ ] Multi-threaded scanning for speed
+- [ ] Linux/macOS support (`/dev/sda` style paths)
+- [ ] GUI interface using Tkinter or PyQt
+- [ ] Skip already-recovered sectors (journal/checkpoint file)
+- [ ] Validate recovered files using PIL/Pillow before saving
 
 ---
 
