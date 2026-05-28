@@ -153,27 +153,6 @@ This project is a hands-on introduction to several key **digital forensics** and
 
 ---
 
-## Limitations & Known Issues
-
-- **Windows only** — uses `\\.\DriveLetter:` syntax for raw access
-- **Slow on large drives** — scans every single sector (512 bytes at a time)
-- **Partial files** — if a file was overwritten mid-way, recovery may be incomplete
-- **False positives** — some recovered files may be corrupt or incomplete
-- **Requires Admin rights** — raw disk access is a privileged operation
-
----
-
-## Possible Improvements
-
-- [ ] Add support for PNG, PDF, DOCX signatures
-- [ ] Multi-threaded scanning for speed
-- [ ] Linux/macOS support (`/dev/sda` style paths)
-- [ ] GUI interface using Tkinter or PyQt
-- [ ] Skip already-recovered sectors (journal/checkpoint file)
-- [ ] Validate recovered files using PIL/Pillow before saving
-
----
-
 ## Learning Resources
 
 - [File Signature Database (Gary Kessler)](https://www.garykessler.net/library/file_sigs.html)
