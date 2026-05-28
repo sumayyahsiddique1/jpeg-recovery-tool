@@ -1,0 +1,14 @@
+# Recovered files (don't commit these — they may contain personal data)
+*.jpeg
+*.jpg
+recover/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# OS
+.DS_Store
+Thumbs.db
